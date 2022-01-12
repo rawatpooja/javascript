@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <h1>Logical opertor</h1>
+    </head>
+    <body>
+        <script>
+            console.log(true||false);//it check true value first and return and if one value true then return that true value
+            console.log(true||true);
+            console.log(false||true);
+            console.log(false||false);
+            "use strict"
+            if(1||0){
+                console.log("truely")
+            }
+            let hour=12;
+            let isWeekend=true;
+            if(hour<10||hour>18||isWeekend){
+                console.log("closed")
+            }
+            let firstname="";
+            let lastname="";
+            let nickname="puju"
+            console.log(firstname||lastname||nickname||"Anonymous");
+            true||console.log("!not printed");
+            false||console.log("printed")
+            console.log(true&&true);//it check the false value first and return and if both conditins are then true
+            console.log(true&&false);
+            console.log(false&&true);
+            console.log(false&&false);
+            let hours=12;
+            let mints=130;
+            if(hours==12&&mints==130){
+                console.log("rihth")
+            }
+            let x=1;
+            (x>0)&&console.log("fhhgh")
+            console.log(!true);
+            console.log(!0);
+            console.log(!!"hg fhfd")//!! used to convert in boolean
+            console.log(null||2||undefined);
+            let age=43
+            if(age>14&&age<90){
+                console.log("43")
+            }
+            //?? return the first defined value
+            let user="pooja"
+            console.log(user??"fghgh");
+            console.log(user??"fghgh");// not defined error
+        </script>
+    </body>
+</html>

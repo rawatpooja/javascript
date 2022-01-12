@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Compersions & conditional branching</h1>
+
+    </head>
+    <body>
+        <script>
+            console.log(2>1);
+            console.log(2==1);
+            console.log(2!=1);
+            console.log('glow'>'glee');
+            console.log('str'=='str');
+            console.log(null==undefined);
+            console.log(null===undefined);
+            console.log(null>0);
+            console.log(null==0);
+            console.log(null>=0);
+
+            //conditional branching
+            let year=prompt("this year is?",'')
+            if(year==2021){
+                console.log(year);
+            }
+            let years=prompt("this year is ?",'')
+            if(years==2022){
+                console.log("welcome to 2022")
+            }else{
+                console.log("two days left ")
+            }
+            let year1=prompt("year is ?",'');
+            if(year1<2022){
+                console.log("too early")
+            }else if(year1>2022){
+                console.log("too late")
+            }else{
+                console.log("exactly")
+            }
+            let accessAllowed;
+            let age=prompt("how old a u ?",'');
+            if(age>18){
+                accessAllowed=true;
+            }else{
+                accessAllowed=false;
+            }
+            console.log(accessAllowed);
+            let age1=19;
+            let ages=(age1>18)?true:false;
+            console.log(ages);
+            let age2=prompt("age?",18);
+            let message=age2<3 ?"hi! baby":
+            age2<18 ?"hello":
+            age2<100 ? "bye":"what an unusal age!";
+            console.log(message);
+            let company=prompt("javascript?",'');
+            (company=='netflix') ? true :false;
+            console.log(company);
+            if("0"){
+                console.log("hello");
+            }
+
+        </script>
+    </body>
+</html>

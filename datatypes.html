@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <h1>Output in console</h1>
+  </head>
+<body>
+ <script>
+    "use strict"
+    const bigintFromNumber=BigInt(10);//same as 10n
+    const bigint=1n;
+    const number=2; // int type data
+   // const bigint=2n;
+   let string="hello";//string tpe data
+   let string2='okk too';
+   let phrase=`can embed another ${string}`//They allow us to embed variables and expressions into a string by wrapping them in ${…}
+   let name="pooja"
+   let sss=`my name is ${name}`;
+   //alert(sss);
+  // alert(bigint+BigInt(number))
+   // alert(1/0);
+   // alert(Infinity);
+   // alert("not a number"/2);
+   // alert("not a number"/2+5);
+   // alert(1n+2n);
+   // alert(2n>1n)//true
+  //  alert(2n>1)//true
+   // alert(1n==1)//true
+    //alert(1n===1)//false
+    console.log(sss);
+   console.log(bigint+BigInt(number))
+    console.log(1/0);
+    console.log(Infinity);
+    console.log("not a number"/2);
+    console.log("not a number"/2+5);
+    console.log(1n+2n);
+    console.log(2n>1n)//true
+    console.log(2n>1)//true
+    console.log(1n==1)//true
+    console.log(1n===1)//false
+    //boolen type
+    let nameFieldChecked=true;//means name checked 
+    let ageFieldChecked=false;//age not checked
+    let isGreater=4>1
+   // alert(isGreater);
+    console.log(isGreater)
+    //null type
+    let age0= null//null means empty.nothing or unknown value
+    //undefiended value
+    let age;
+   // alert(age);//or
+    console.log(age);
+    let age1=100
+    age1= undefined //values changed here
+    //alert(age1)//output undefined
+    console.log(age1)
+    typeof Symbol("id") // "symbol" unique identifier
+    let name1="pooja"
+    //alert(`hello${1}`);
+   // alert(`hello ${"name1"}`);
+    //alert(`hello ${name1}`);
+    console.log(`hello${1}`);
+    console.log(`hello ${"name1"}`);
+    console.log(`hello ${name1}`);
+  </script>
+  </body>
+</html>

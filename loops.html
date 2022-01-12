@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <script>
+            //while loop ---first check condition then loop boy excutes
+            let i=0;
+            while(i<3){
+                console.log(i);
+                i++;
+            }
+            let a=3;
+            while(a){
+                console.log(a);
+                a--;
+            }
+            //do while loop ----- first excutes the loop body then check condition
+            let j=0;
+            do{
+                console.log(j);
+                j++;
+            }while(j<4);
+           // for(let x=0;i<6;x++){
+              //  console.log(x);
+           // }
+          //  console.log(x)
+          //breaking loop
+          let sum=0;
+          while(true){
+              let value= +prompt("gg",'');
+              if(!value) break;
+              sum +=value;
+
+          }
+          console.log("sum",sum);
+          //continue loop
+          for(let i=0;i<10;i++){
+              if(i%2==0) continue;
+              console.log(i);
+          }
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Interactions:alert,prompt and confrim</h1><br><br>
+        <h2>Type conversions: to string , to number and to boolean </h2>
+
+    </head>
+    <body>
+        <script>
+            //interactions
+            alert,prompt,confirm
+         alert("hello pooja");
+            let age=prompt('my age is ');
+            alert(`you are ${age } yeras old`);
+           console.log(age);
+           let test= prompt("Test");
+            console.log(test)
+            let isBoss=confirm("are u boss");
+            console.log(isBoss);
+            let name1=prompt("enter your name" )
+            let name=confirm(`your name is ${name1}`);
+            console.log(name);
+
+            // type conversions
+
+            let value=true;
+            console.log(typeof value);//boolen
+            value=String(value);
+            console.log(typeof value)//convert to string
+            console.log("6"/"2");//strings convert to numbers
+            let str="123";
+            console.log(typeof str);
+            let num=Number(str);
+            console.log(typeof num);
+            let num1=Number("an arbitrary string instead of a number ");
+            console.log(num1)
+            console.log(Number("123"));
+            console.log(Number("123p"));
+            console.log(Number(true));
+            console.log(Number(false));
+            console.log(Boolean(1));
+            console.log(Boolean(0));
+            console.log(Boolean("heelo"));
+            console.log(Boolean(""));
+            console.log(Boolean("0"));
+            console.log(Boolean(" "));//take space is true
+        </script>
+
+    </body>
+</html>
